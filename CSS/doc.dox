@@ -1,0 +1,19 @@
+.con-3{
+    padding-top:100px;
+    text-align: center;
+    position: relative;
+}
+.con-3 h1{
+    font-size: 50px;
+}
+.con-3 span{
+    height:2px;
+    position: absolute;
+    border:1px solid white;
+    width:70%;
+    margin-top:20px;
+}
+.con-3 h2{
+    margin-top: 50px;
+    font-size: 3.5rem;
+    text-align: center;

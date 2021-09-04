@@ -2,10 +2,6 @@ body{
     background-color: black;
     color:white
 }
-.headerr{
-    display:block;
-align-content:  center;
-}
 .dp{
     width:350px;
     height:350px;
@@ -17,6 +13,13 @@ width:70%;
 display:flex;
 flex-direction: column;
 align-items: center;
+}
+.con-1 p{
+    font-weight: 400;
+    font:3rem;
+    line-height: 2.5;
+    margin-top:20px;
+
 }
 .soc-icn{
     margin: 20px 0;
@@ -50,6 +53,12 @@ align-items: center;
     margin-top:5px;
     
 }
+.chatt{
+    display: flex;
+    align-items: center;
+    gap:2%;
+    font-weight: 700;
+}
 .col2 h4{
     color:cornsilk;
     font-size:25px ;
@@ -66,17 +75,20 @@ align-items: center;
     margin-top:20px;
 }
 .con-3{
+    display:block;
+}
+ .con-3{
     padding-top:100px;
     text-align: center;
-    position: relative;
+    /* display:flex; */
+    
 }
 .con-3 h1{
     font-size: 50px;
+    font-weight: bolder;
 }
 .con-3 span{
     height:2px;
-    position: absolute;
-    border:1px solid white;
     width:70%;
     margin-top:20px;
 }
@@ -84,4 +96,67 @@ align-items: center;
     margin-top: 50px;
     font-size: 3.5rem;
     text-align: center;
+}
+.arrow{
+    height:70px;
+    padding:30px;
+}*/
+.gallery{
+    display: block;
+    padding: 20px;
+    
+}
+.row-1 .row-2{
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
+
+.row-1 img{
+    width:300px;
+    height:300px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    cursor: pointer;
+    backdrop-filter: blur(2px);
+    margin: 10px;
+    /* padding-left: 15px; */
+}
+.row-1 img:hover{
+    /* backdrop-filter: blur(2px); */
+}
+.butt{
+    padding:40px;
+    display: flex;
+    justify-content: center;
+}
+.butt button{
+    background-color: black;
+    padding:20px;
+    color:cornsilk;
+    border:2px solid cornsilk;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 250px;
+    cursor: pointer;
+    transition:0.3s ease-in;
+
+}
+.butt button:hover{
+    background-color: white;
+    color:black;
+}
+.con-4{
+    display:flex;
+    width:100%;
+}
+.col3{
+    width:50%;
+}
+.col4{
+width:50%;
+
+ 
 }
